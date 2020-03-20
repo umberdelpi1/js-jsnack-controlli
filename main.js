@@ -13,9 +13,9 @@ console.log("Primo numero inserito: " + numero1);
 console.log("Secondo numero inserito: " + numero2);
 
 if (numero1 > numero2) {
-  numeroMaggiore = "Il numero maggiore è: "
+  numero1 = numeroMaggiore + "Il numero maggiore è: "
 } else if (numero2 > numero1) {
-  numeroMaggiore = "Il numero maggiore è: "
+  numero2 = numeroMaggiore +  "Il numero maggiore è: "
 }
 // Output software
 document.getElementById('js-id').innerHTML="Il numero maggiore è: " + numeroMaggiore;
