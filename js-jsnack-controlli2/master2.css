@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  left: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://media.giphy.com/media/H0nZvDQu33Mu0YgyBX/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#parola {
+  color: #000;
+  background-color: rgb(255,252,0);
+  padding: 10px;
+  border-radius: 15px;
+}

@@ -17,3 +17,10 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+#js-id {
+  color: #000;
+  background-color: rgba(255,255,255,.53);
+  border-radius: 20px;
+  padding: 20px;
+}

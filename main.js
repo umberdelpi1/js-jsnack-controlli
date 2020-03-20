@@ -1,7 +1,7 @@
 
 // Msg di benvenuto (fuori ex)
-var nomeUtente = prompt("Inserisci il tuo nome")
-alert(" Ciao ti diamo il benvenuto " + nomeUtente)
+var nomeUtente = prompt("Inserisci il tuo nome");
+alert(" Ciao ti diamo il benvenuto " + nomeUtente);
 
 // creare due prompt per inserire due numeri
 
