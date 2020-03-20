@@ -5,13 +5,15 @@
   box-sizing: border-box;
 }
 body {
-
-}
-
-.sfondo {
   background-image: url(img/instagram_color.jpg);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
+}
+
+.sfondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
