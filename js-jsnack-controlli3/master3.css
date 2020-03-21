@@ -1,0 +1,45 @@
+/* REGOLE GENERALI */
+* {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blocco1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#22c1c3,#2d6efd);
+  height: 500px;
+  width: 500px;
+  border-radius: 40px;
+}
+
+.blocco2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#c52dfd,#22c1c3);
+  height: 400px;
+  width: 400px;
+  border-radius: 40px;
+}
+
+.blocco3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  border: solid rgba(177,50,223,.3) 5px;
+}
